@@ -7,26 +7,28 @@ If you are collecting data manually, you have to collect data from at least 366 
 
 
 Files: 
-  01Main.py: You can access all the modules from this file and update risk-free rate value. 
+ 01Main.py: You can access all the modules from this file and update risk-free rate value. 
   
-  data_coinapi.py : Simple program to receive data from Coinapi. This script is called from 01Main as a module. Please register with Coinapi and update the "key" value.
+ data_coinapi.py : Simple program to receive data from Coinapi. This script is called from 01Main as a module. Please register with Coinapi and update the "key" value.
   
-  returncalculator.py : Calculates rolling returns (30,90,180,270, and 365-day) and saves the data is the "return_data" folder. 
-  Trendline Creators: 
-    trendline_30.py
-    trendline_90.py
-    trendline_180.py
-    trendline_270.py
-    trendline_365.py
+ returncalculator.py : Calculates rolling returns (30,90,180,270, and 365-day) and saves the data is the "return_data" folder. 
+  
+  
+ Trendline Creators: 
+  trendline_30.py
+  trendline_90.py
+  trendline_180.py
+  trendline_270.py
+  trendline_365.py
     
-    - Create various types of trendlines using the return data saves in the "Charts" folder. 
+    - These files create various types of trendlines using the return data saves in the "Charts" folder. 
     
-    Optimizers: 
-      optimize_30.py
-      optimize_90.py
-      optimize_180.py
-      optimize_270.py
-      optimize_365.py
+ Optimizers: 
+  optimize_30.py
+  optimize_90.py
+  optimize_180.py
+  optimize_270.py
+  optimize_365.py
       
       - Find optimum portfolios, creates charts and saves the charts in the "Charts" folder. 
   
