@@ -7,7 +7,7 @@ import datetime
 import math
 
 ##please get a CoinAPI key 
-key = "4A68CA94-BCEA-48D9-A430-D8112C1A330D"
+key = "please get a new key by registering at https://www.coinapi.io/"
 
 def collect(asset_name, beg_date, end_date):
 
