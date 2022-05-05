@@ -17,23 +17,23 @@ Files:
   
  Trendline Creators: 
   
-  'trendline_30.py'
-  'trendline_90.py'
-  'trendline_180.py'
-  'trendline_270.py'
+  'trendline_30.py', 
+  'trendline_90.py', 
+  'trendline_180.py', 
+  'trendline_270.py', 
   'trendline_365.py'
     
-    - These files create various types of trendlines using the return data save in the "Charts" folder. 
+  - These files create various types of trendlines using the return data save in the "Charts" folder. 
     
     
  Optimizers: 
-  'optimize_30.py'
-  'optimize_90.py'
-  'optimize_180.py'
-  'optimize_270.py'
+  'optimize_30.py', 
+  'optimize_90.py', 
+  'optimize_180.py', 
+  'optimize_270.py', 
   'optimize_365.py'
       
-      - These files calculate optimum portfolios, create charts and save the charts in the "Charts" folder. 
+  - These files calculate optimum portfolios, create charts and save the charts in the "Charts" folder. 
   
 
 
