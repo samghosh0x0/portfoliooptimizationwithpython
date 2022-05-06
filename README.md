@@ -1,16 +1,16 @@
 # portfoliooptimizationwithpython
 Portfolio Optimization and Trend Analysis with Python
-Please register with https://www.coinapi.io/ and update key value in "data_coinapi.py" before running the scripts. 
+Please register with https://www.coinapi.io/ and update the key value in "data_coinapi.py" before running the scripts. 
 
-If you are collecting data manually, you have to collect data from at least 366 days prior to the begining date for your analysis. This is required to calculate the 365-day returns. Save the data in "Data" folder as a .csv file. Please match the format with the existing .csv files. 
+If you are collecting data manually, you have to collect data at least 366 days prior to the beginning date for your analysis. This is required to calculate the 365-day returns. Save the data in the "Data" folder as a .csv file. Please match the format with the existing .csv files. 
 
 
 
 Files: 
 
- 01Main.py: You can access all the modules from this file and update risk-free rate value. 
+ 01Main.py: You can access all the modules from this file and update the risk-free rate value. 
   
- data_coinapi.py : Simple program to receive data from Coinapi. This script is called from 01Main as a module. Please register with Coinapi and update the "key" value.
+ 'data_coinapi.py': Simple program to receive data from Coinapi. This script is called from 01Main as a module. Please register with Coinapi and update the "key" value.
   
  'returncalculator.py' : Calculates rolling returns (30,90,180,270, and 365-day) and saves the data is the "return_data" folder. 
   
@@ -40,9 +40,8 @@ Files:
 
 Folders:
 
-  'Data': The 'data_coinapi.py' module saves collected data here. If the data is not available with Coinapi or you are doing analysis for fiat assets - save the data as a csv file here. 
+  'Data': The 'data_coinapi.py' module saves collected data here. If the data is not available with Coinapi or you are doing analysis for fiat assets - save the data as a CSV file here. 
   
   'return_data' : The 'returncalculator.py' module saves the calculated returns in this folder in .csv format. 
   
-  'Charts' : All the charts created by trendline creators and optimizers are saved in this folder. 
-  
+  'Charts': All the charts created by trendline creators and optimizers are saved in this folder. 
